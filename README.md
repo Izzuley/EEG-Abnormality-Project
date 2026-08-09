@@ -179,7 +179,7 @@ The EBM and Standard SHAP analyses agreed on the risk direction for Albumin and 
 
 | Feature | EBM transition | Standard SHAP transition | Direction |
 |---|---:|---:|---|
-| Albumin | 31.5 | 35.5 | Lower values associated with higher predicted abnormality |
+| Albumin | 31.5 | 31.5 | Lower values associated with higher predicted abnormality |
 | Blood Urea | approximately 11-12 | approximately 18-19 | Higher values associated with higher predicted abnormality |
 
 These values describe model behaviour. They are not validated clinical cut-offs.
