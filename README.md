@@ -226,7 +226,7 @@ The sensitivity model detected more abnormal cases but produced substantially mo
 - [Main project notebook](Project%20Files/EEGAbnormality_Project.ipynb)
 - [Length of hospitalisation sensitivity notebook](Project%20Files/EEGAbnormality_LengthOfHospitalisation_Sensitivity.ipynb)
 - Curated aggregate result tables under `results/`
-- Approved aggregate figures under `figures/`
+- Paper-ready global, comparison, EBM, uncertainty, and SHAP dependence figures under `figures/`
 
 The EDA notebook is not required for the client-facing or paper-oriented release.
 
