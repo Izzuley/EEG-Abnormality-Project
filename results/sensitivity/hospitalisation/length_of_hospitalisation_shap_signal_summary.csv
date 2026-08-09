@@ -1,0 +1,2 @@
+feature,borutashap_status,in_final_sensitivity_catboost,dependence_plot_source,approx_positive_shap_threshold_days,mean_shap,mean_abs_shap,plot_path,interpretation
+LENGTH OF HOSPITALISATION,accepted,True,Final sensitivity CatBoost model,10.0,0.3505538739657588,0.6585088394317633,/mnt/z/R&D/EEG/outputs/length_of_hospitalisation_sensitivity/shap/dependence_LENGTH_OF_HOSPITALISATION.png,Hospital-course / illness-severity proxy only; main model should still exclude it.

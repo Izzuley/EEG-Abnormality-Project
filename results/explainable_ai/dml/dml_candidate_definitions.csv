@@ -1,0 +1,5 @@
+Candidate,Source_Feature,Treatment_Column,Treatment_Type,Contrast,Unit,Reference_Level,Confounder_Columns
+BLOOD UREA,BLOOD UREA,BLOOD UREA,continuous,one training-standard-deviation increase,training SD,,"[""ALBUMIN"", ""SEIZURES == 1"", ""GENERALISED SEIZURE == 1""]"
+ALBUMIN,ALBUMIN,ALBUMIN,continuous,one training-standard-deviation increase,training SD,,"[""BLOOD UREA"", ""SEIZURES == 1"", ""GENERALISED SEIZURE == 1""]"
+SEIZURES == 1,SEIZURES,SEIZURES == 1,binary,1 versus 0,indicator contrast,0,"[""BLOOD UREA"", ""ALBUMIN"", ""GENERALISED SEIZURE == 1""]"
+GENERALISED SEIZURE == 1,GENERALISED SEIZURE,GENERALISED SEIZURE == 1,binary,1 versus 0,indicator contrast,0,"[""BLOOD UREA"", ""ALBUMIN"", ""SEIZURES == 1""]"

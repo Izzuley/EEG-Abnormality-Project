@@ -1,0 +1,8 @@
+Limitation
+This exploratory DML analysis uses training data only and does not alter the frozen predictive model.
+Residualized associations are not causal estimates unless untestable identification assumptions hold.
+The selected predictive features are not a prespecified causal adjustment set; unmeasured and temporal confounding remain likely.
+Categorical effects compare each observed non-reference training level with the training-derived reference level.
+Continuous effects are reported per one training-standard-deviation increase on the clinical display scale.
+"The small, single-centre retrospective cohort limits nuisance-model stability, overlap assessment, and generalizability."
+Benjamini-Hochberg adjustment is reported across the exploratory candidate tests; results require independent confirmation.

@@ -1,0 +1,5 @@
+model_key,model,selected_feature_count,f1,recall_sensitivity,precision,specificity,balanced_accuracy,accuracy,roc_auc,tn,fp,fn,tp,feature_selection_method
+linear_svm,Linear SVM,69,0.8616187989556136,0.9763313609467456,0.7710280373831776,0.19672131147540983,0.5865263362110777,0.7695652173913043,0.7573964497041421,12,49,4,165,RFECV with LinearSVC on scaled one-hot training matrix
+random_forest,Random Forest,3,0.8397790055248618,0.8994082840236687,0.7875647668393783,0.32786885245901637,0.6136385682413426,0.7478260869565218,0.7116597148123,20,41,17,152,Boruta with RandomForestClassifier on unscaled one-hot training matrix
+catboost,CatBoost,4,0.8256880733944955,0.7988165680473372,0.8544303797468354,0.6229508196721312,0.7108836938597343,0.7521739130434782,0.7843631778058008,38,23,34,135,BorutaSHAP all-relevant feature selection with CatBoostClassifier on train-only CatBoost matrix
+logistic_regression,Logistic Regression,51,0.822429906542056,0.7810650887573964,0.868421052631579,0.6721311475409836,0.7265981181491901,0.7521739130434782,0.7750509263750122,41,20,37,132,L1/Lasso LogisticRegressionCV on scaled one-hot training matrix

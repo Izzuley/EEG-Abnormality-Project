@@ -1,0 +1,2 @@
+analysis_label,model,params,threshold,f1,recall_sensitivity,precision,specificity,balanced_accuracy,accuracy,roc_auc,tn,fp,fn,tp
+"Sensitivity model, not main model",CatBoost,"{'depth': 4, 'iterations': 250, 'l2_leaf_reg': 3, 'learning_rate': 0.03}",0.14,0.8541666666666666,0.9761904761904762,0.7592592592592593,0.1875,0.5818452380952381,0.7586206896551724,0.7901785714285714,3,13,1,41

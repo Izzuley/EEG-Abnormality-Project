@@ -1,0 +1,2 @@
+Model,threshold,f1,recall_sensitivity,precision,specificity,balanced_accuracy,accuracy,roc_auc,tn,fp,fn,tp
+Explainable Boosting Machine,0.5,0.7837837837837838,0.6904761904761905,0.90625,0.8125,0.7514880952380952,0.7241379310344828,0.8035714285714286,13,3,13,29

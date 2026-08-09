@@ -1,0 +1,7 @@
+feature,in_main_catboost,in_sensitivity_catboost
+ALBUMIN,True,True
+BLOOD UREA,True,False
+CREATININE,False,True
+GENERALISED SEIZURE,True,True
+LENGTH OF HOSPITALISATION,False,True
+SEIZURES,True,True

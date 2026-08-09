@@ -1,0 +1,33 @@
+# Confidential or internal project material
+Dataset/
+References/
+skills/
+tmp/
+MIsc/
+AGENTS.md
+PROJECT_CONTEXT.md
+SPEC.md
+PLANS.md
+Project Files/EEGAbnormality_EDA.ipynb
+
+# Patient-level or local explanation outputs
+**/*local_values.csv
+**/*additivity_check.csv
+**/shap_outputs.csv
+**/*waterfall*.png
+
+# Generated local output tree
+outputs/
+
+# Python, Jupyter, R, and operating-system artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+Thumbs.db
+*.lock
