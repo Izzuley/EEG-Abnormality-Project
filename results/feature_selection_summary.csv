@@ -1,0 +1,5 @@
+model,method,selected_count,details
+Logistic Regression,L1/Lasso LogisticRegressionCV on scaled one-hot training matrix,51,Best C=1.2915
+Linear SVM,RFECV with LinearSVC on scaled one-hot training matrix,69,RFECV selected 69 features
+Random Forest,Boruta with RandomForestClassifier on unscaled one-hot training matrix,3,Tentative features: 3
+CatBoost,BorutaSHAP all-relevant feature selection with CatBoostClassifier on train-only CatBoost matrix,4,Accepted=4; tentative=1; rejected=38; selected categorical=2

@@ -1,0 +1,3 @@
+Feature,EBM_Threshold,Threshold_Direction,Threshold_Method,Confidence_Level
+BLOOD UREA,11.344326808428942,Above transition associated with higher predicted abnormal-EEG risk,First zero crossing into sustained terminal-sign region,Exploratory / sustained
+ALBUMIN,31.5,Below transition associated with higher predicted abnormal-EEG risk,First zero crossing into sustained terminal-sign region,Exploratory / sustained

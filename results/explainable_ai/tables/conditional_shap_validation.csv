@@ -1,0 +1,2 @@
+Wrapper_Equivalence_Passed,Wrapper_Maximum_Absolute_Difference,Feature_Order_Passed,Category_Level_Validation_Passed,Explanation_Row_Mapping_Passed,Finite_Values_Passed,Additivity_Passed,Additivity_Maximum_Absolute_Residual,Additivity_Mean_Absolute_Residual
+True,0.0,True,True,True,True,True,2.6138197828373677e-08,7.930693122330465e-09

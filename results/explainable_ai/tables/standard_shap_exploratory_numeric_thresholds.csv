@@ -1,0 +1,3 @@
+Feature,SHAP_Dependence_Threshold,SHAP_Threshold_Direction,SHAP_Threshold_Method
+BLOOD UREA,18.849999999999994,Above transition associated with higher predicted abnormal-EEG risk,First observed sign-change midpoint into sustained terminal-sign region
+ALBUMIN,35.5,Below transition associated with higher predicted abnormal-EEG risk,First observed sign-change midpoint into sustained terminal-sign region
